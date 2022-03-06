@@ -4,9 +4,7 @@ import { Button, Container, Divider, Flag, Grid, GridColumn, GridRow, Header, Ic
 function App() {
   return (
     <div>
-      <Button primary>Hallo Semantic UI</Button>
-      <Button secondary>Hallo Semantic UI</Button>
-      <Container>
+      <Container style={{ marginTop: "1rem" }}>
         <Grid relaxed>
           <GridRow>
             <GridColumn width={1}>
